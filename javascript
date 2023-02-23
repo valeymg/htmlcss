@@ -1,28 +1,32 @@
-const libro = {
-    titulo: "Aprendiendo JavaScript",
-    autor: "idk man",
-    numpaginas:"100",
-    editorial: "c325s.net",
-    precio: "134.42",
-    edad: 36,
-    Redes:{
-        Twitter:"Twitter punto com",
-        TikTok:"No"
+// let miArray = [3,6,5,4]
+// miArray.sort
+// miArray.pop
+// miArray
+// miArray.push(2)
+// miArray
+// miArray.sort()
+// miArray.reverse()
 
-    },
-    leer: función() {
-        consola. log("¿Fr? ¿Ong?")
-    }
-}
+// Método antiguo
+Sea valor = 3
+// const template=[
+// "<li>",
+// "valor",
+// "</li>"
+// ].join("");
+// consola.log(plantilla)
 
-let pages = "numpaginas"
-libro[páginas]
-libro. mirada de soslayo()
-libro. autor. nombre
-libro["autor"]["redes"]["twitter"]
+let miArray=[2,4,6,8]
+"javascript"[2]
+"javascript". largura
+"javascript". charCodeAt(2)
+"javascript". indexOf("cadena")
+"javascript". subcadena(2, 4)
 
-const carro1 = {marca: "Renault", modelo: "Twingo",}
-const carro2 = {marca: "Renault", modelo: "Twingo",}
-carro1 === carro2 
-carro1. marca === carro2. marca
-carro3===Carro1
+const fecha = new Date()
+fecha.toString().split("")
+[4].split(":")[1]
+
+const  fecha = nueva fecha ()
+fecha. toString(). partir("")
+[4]. split(":")[0]

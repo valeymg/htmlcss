@@ -1,34 +1,28 @@
-Const Posts =[{
-    Identificación: 1,
-    Título: "Mi Primer Post",
-    imagen: "wawa.com/img",
-    Etiquetas: "whata",
-},
-{
-    Identificación: 2,
-    Título: "Mi segundo post",
-    imagen: "wawa.com/img",
-    Etiquetas: "nosa",
-},
-{
-    Identificación: 3,
-    Título: "The When The",
-    imagen: "wawa.com/img",
-    Etiquetas: "yesa",
-}]
-puestos. find(post=>post. id==1)
-puestos. some(post=>post. id===1)
-puestos. some(post=>post. . includes("whata"))
-puestos. every(post=>post. . includes("nosa"))
-puestos. map(post=>post. título)
-puestos. filter(post=>post. . includes("whata"))
-puestos. filter(post=>post?. imagen)
-puestos. reduce((allTags, posts)=>{
-    volver [... allTags,... puestos. Etiquetas]
-})
-puestos. reduce((allTags, posts)=>{
-    devolver Array. de  (new Set([... allTags,... puestos. Etiquetas]))
-},[])
-puestos. reduce((allTags, posts)=>{
-    volver [... allTags,... puestos. Etiquetas]
-},[]). filter((post, index, self)=>index===self. IndexOf(post))
+const libro = {
+    titulo: "Aprendiendo JavaScript",
+    autor: "idk man",
+    numpaginas:"100",
+    editorial: "c325s.net",
+    precio: "134.42",
+    edad: 36,
+    Redes:{
+        Twitter:"Twitter punto com",
+        TikTok:"No"
+
+    },
+    leer: función() {
+        consola. log("¿Fr? ¿Ong?")
+    }
+}
+
+let pages = "numpaginas"
+libro[páginas]
+libro. mirada de soslayo()
+libro. autor. nombre
+libro["autor"]["redes"]["twitter"]
+
+const carro1 = {marca: "Renault", modelo: "Twingo",}
+const carro2 = {marca: "Renault", modelo: "Twingo",}
+carro1 === carro2 
+carro1. marca === carro2. marca
+carro3===Carro1
